@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0-windows;net7.0-windows;net462;net472;net48</TargetFrameworks>
+    <PackageId>PicaPico.AcrylicHelper</PackageId>
+    <UseWPF>true</UseWPF>
+    <Version>1.0.0</Version>
+    <Authors>picapico</Authors>
+    <Company>picapico</Company>
+    <Product>AcrylicHelper</Product>
+    <Description>An easy-to-use library for apply acrylic window.</Description>
+    <PackageProjectUrl>https://github.com/HeHang0/AcrylicHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HeHang0/AcrylicHelper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>AcrylicHelper .NET WPF</PackageTags>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PicaPico.ThemeListener" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
